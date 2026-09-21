@@ -1,0 +1,541 @@
+<html>
+<head>
+<title>Brazil</title>
+<script>
+
+var vImage = new Array("images/000.JPG", "images/001.JPG", "images/002.JPG", "images/003.JPG", "images/004.JPG", "images/005.JPG", "images/006.JPG", "images/007.JPG", "images/008.JPG", "images/009.JPG", "images/010.JPG", "images/011.JPG", "images/012.JPG", "images/013.JPG", "images/014.JPG", "images/015.JPG", "images/016.JPG", "images/017.JPG", "images/018.JPG", "images/020.JPG", "images/021.JPG", "images/022.JPG", "images/024.JPG", "images/026.JPG", "images/027.JPG", "images/028.JPG", "images/029.JPG", "images/030.JPG", "images/031.JPG", "images/032.JPG", "images/033.JPG", "images/034.JPG", "images/035.JPG", "images/036.JPG", "images/037.JPG", "images/038.JPG", "images/039.JPG", "images/040.JPG", "images/042.JPG", "images/044.JPG", "images/045.JPG", "images/046.JPG", "images/047.JPG", "images/048.JPG", "images/049.JPG", "images/050.JPG", "images/051.JPG", "images/052.JPG", "images/053.JPG", "images/054.JPG", "images/055.JPG", "images/056.JPG", "images/057.JPG", "images/058.JPG", "images/059.JPG", "images/060.JPG", "images/061.JPG", "images/062.JPG", "images/063.JPG", "images/064.JPG", "images/065.JPG", "images/066.JPG", "images/067.JPG", "images/068.JPG", "images/069.JPG", "images/070.JPG", "images/071.JPG", "images/072.JPG", "images/073.JPG", "images/074.JPG", "images/075.JPG", "images/076-1.JPG", "images/076-2.JPG", "images/076-3.JPG", "images/076-4.JPG", "images/077.JPG", "images/078.JPG", "images/079.JPG", "images/080.JPG", "images/081.JPG", "images/082.JPG", "images/083.JPG", "images/084.JPG", "images/085.JPG", "images/086.JPG", "images/087.JPG", "images/088.JPG", "images/089.JPG", "images/090.JPG", "images/091.JPG", "images/092.JPG", "images/093.JPG", "images/094.JPG", "images/095.JPG", "images/096.JPG", "images/097.JPG", "images/098.JPG", "images/099.jpg", "images/100.JPG", "images/101.JPG", "images/102.JPG", "images/103.JPG", "images/104.jpg", "images/105.jpg", "images/106.jpg", "images/107.jpg", "images/108.jpg", "images/109.jpg", "images/110.JPG", "images/111.JPG", "images/112.JPG", "images/113.JPG", "images/114.JPG", "images/115.JPG", "images/116.JPG", "images/117.jpg", "images/118.jpg", "images/119.JPG", "images/149.JPG", "images/175.JPG", "images/176.JPG", "images/178.JPG", "images/179.JPG", "images/182.JPG", "images/186.JPG", "images/195.JPG", "images/202.JPG", "images/203.JPG", "images/205.JPG", "images/206.JPG", "images/207.JPG", "images/208.JPG", "images/228.JPG", "images/230.JPG", "images/231.JPG", "images/232.JPG", "images/233.JPG", "images/235.JPG", "images/236.JPG", "images/237.JPG", "images/240.jpg", "images/241.JPG", "images/242.JPG", "images/243.JPG", "images/244.JPG", "images/245.JPG", "images/249.JPG", "images/250.JPG", "images/252.JPG", "images/253.JPG", "images/256.JPG", "images/259.JPG", "images/261.JPG", "images/263.JPG", "images/264.JPG", "images/265.JPG", "images/266.JPG", "images/268.JPG", "images/269.JPG", "images/270.jpg", "images/271.JPG", "images/272.JPG", "images/273.JPG", "images/274.JPG", "images/275.JPG", "images/276.JPG", "images/277.JPG", "images/278.JPG", "images/279.JPG", "images/280.JPG", "images/281.JPG", "images/282.jpg", "images/283.JPG", "images/284.JPG", "images/285.JPG", "images/286.JPG", "images/287.JPG", "images/288.JPG", "images/289.JPG", "images/291.JPG", "images/292.JPG", "images/293.JPG", "images/294.jpg", "images/295.JPG", "images/298.JPG")
+var cxImage = new Array("640","640","640","640","640","321","640","640","321","640","640","640","640","640","321","640","640","640","640","640","321","640","321","640","321","640","640","640","640","640","640","640","640","640","640","640","640","640","321","640","640","640","321","640","321","640","321","321","640","640","640","321","640","640","640","640","640","640","321","321","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","321","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","321","640","356","640","640","356","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","321","640","640","321","321","321","640","640","321","640","640","640","321","640","640","321","321","321","321","640","640","640","321","640","321","640","640","320","321","640","640","321","640","640","640","640","640","640","640","640")
+var cyImage = new Array("428","428","428","428","428","480","428","428","480","428","428","428","428","428","480","428","428","428","428","428","480","428","480","428","480","428","428","428","428","428","428","428","428","428","428","428","428","428","480","428","428","428","480","428","480","428","480","480","428","428","428","480","428","428","428","428","428","428","480","480","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","428","427","428","428","428","480","427","427","427","427","427","427","428","428","428","428","428","428","428","427","427","428","428","428","480","475","480","451","475","480","428","428","428","428","428","428","428","428","428","428","428","428","428","428","427","428","428","428","427","480","428","428","480","480","480","428","428","480","428","428","428","480","428","427","480","480","480","480","428","428","428","480","428","480","428","427","480","480","428","428","480","428","428","428","428","428","427","428","428")
+var vThumb = new Array("images/000.thumb.JPG", "images/001.thumb.JPG", "images/002.thumb.JPG", "images/003.thumb.JPG", "images/004.thumb.JPG", "images/005.thumb.JPG", "images/006.thumb.JPG", "images/007.thumb.JPG", "images/008.thumb.JPG", "images/009.thumb.JPG", "images/010.thumb.JPG", "images/011.thumb.JPG", "images/012.thumb.JPG", "images/013.thumb.JPG", "images/014.thumb.JPG", "images/015.thumb.JPG", "images/016.thumb.JPG", "images/017.thumb.JPG", "images/018.thumb.JPG", "images/020.thumb.JPG", "images/021.thumb.JPG", "images/022.thumb.JPG", "images/024.thumb.JPG", "images/026.thumb.JPG", "images/027.thumb.JPG", "images/028.thumb.JPG", "images/029.thumb.JPG", "images/030.thumb.JPG", "images/031.thumb.JPG", "images/032.thumb.JPG", "images/033.thumb.JPG", "images/034.thumb.JPG", "images/035.thumb.JPG", "images/036.thumb.JPG", "images/037.thumb.JPG", "images/038.thumb.JPG", "images/039.thumb.JPG", "images/040.thumb.JPG", "images/042.thumb.JPG", "images/044.thumb.JPG", "images/045.thumb.JPG", "images/046.thumb.JPG", "images/047.thumb.JPG", "images/048.thumb.JPG", "images/049.thumb.JPG", "images/050.thumb.JPG", "images/051.thumb.JPG", "images/052.thumb.JPG", "images/053.thumb.JPG", "images/054.thumb.JPG", "images/055.thumb.JPG", "images/056.thumb.JPG", "images/057.thumb.JPG", "images/058.thumb.JPG", "images/059.thumb.JPG", "images/060.thumb.JPG", "images/061.thumb.JPG", "images/062.thumb.JPG", "images/063.thumb.JPG", "images/064.thumb.JPG", "images/065.thumb.JPG", "images/066.thumb.JPG", "images/067.thumb.JPG", "images/068.thumb.JPG", "images/069.thumb.JPG", "images/070.thumb.JPG", "images/071.thumb.JPG", "images/072.thumb.JPG", "images/073.thumb.JPG", "images/074.thumb.JPG", "images/075.thumb.JPG", "images/076-1.thumb.JPG", "images/076-2.thumb.JPG", "images/076-3.thumb.JPG", "images/076-4.thumb.JPG", "images/077.thumb.JPG", "images/078.thumb.JPG", "images/079.thumb.JPG", "images/080.thumb.JPG", "images/081.thumb.JPG", "images/082.thumb.JPG", "images/083.thumb.JPG", "images/084.thumb.JPG", "images/085.thumb.JPG", "images/086.thumb.JPG", "images/087.thumb.JPG", "images/088.thumb.JPG", "images/089.thumb.JPG", "images/090.thumb.JPG", "images/091.thumb.JPG", "images/092.thumb.JPG", "images/093.thumb.JPG", "images/094.thumb.JPG", "images/095.thumb.JPG", "images/096.thumb.JPG", "images/097.thumb.JPG", "images/098.thumb.JPG", "images/099.thumb.jpg", "images/100.thumb.JPG", "images/101.thumb.JPG", "images/102.thumb.JPG", "images/103.thumb.JPG", "images/104.thumb.jpg", "images/105.thumb.jpg", "images/106.thumb.jpg", "images/107.thumb.jpg", "images/108.thumb.jpg", "images/109.thumb.jpg", "images/110.thumb.JPG", "images/111.thumb.JPG", "images/112.thumb.JPG", "images/113.thumb.JPG", "images/114.thumb.JPG", "images/115.thumb.JPG", "images/116.thumb.JPG", "images/117.thumb.jpg", "images/118.thumb.jpg", "images/119.thumb.JPG", "images/149.thumb.JPG", "images/175.thumb.JPG", "images/176.thumb.JPG", "images/178.thumb.JPG", "images/179.thumb.JPG", "images/182.thumb.JPG", "images/186.thumb.JPG", "images/195.thumb.JPG", "images/202.thumb.JPG", "images/203.thumb.JPG", "images/205.thumb.JPG", "images/206.thumb.JPG", "images/207.thumb.JPG", "images/208.thumb.JPG", "images/228.thumb.JPG", "images/230.thumb.JPG", "images/231.thumb.JPG", "images/232.thumb.JPG", "images/233.thumb.JPG", "images/235.thumb.JPG", "images/236.thumb.JPG", "images/237.thumb.JPG", "images/240.thumb.jpg", "images/241.thumb.JPG", "images/242.thumb.JPG", "images/243.thumb.JPG", "images/244.thumb.JPG", "images/245.thumb.JPG", "images/249.thumb.JPG", "images/250.thumb.JPG", "images/252.thumb.JPG", "images/253.thumb.JPG", "images/256.thumb.JPG", "images/259.thumb.JPG", "images/261.thumb.JPG", "images/263.thumb.JPG", "images/264.thumb.JPG", "images/265.thumb.JPG", "images/266.thumb.JPG", "images/268.thumb.JPG", "images/269.thumb.JPG", "images/270.thumb.jpg", "images/271.thumb.JPG", "images/272.thumb.JPG", "images/273.thumb.JPG", "images/274.thumb.JPG", "images/275.thumb.JPG", "images/276.thumb.JPG", "images/277.thumb.JPG", "images/278.thumb.JPG", "images/279.thumb.JPG", "images/280.thumb.JPG", "images/281.thumb.JPG", "images/282.thumb.jpg", "images/283.thumb.JPG", "images/284.thumb.JPG", "images/285.thumb.JPG", "images/286.thumb.JPG", "images/287.thumb.JPG", "images/288.thumb.JPG", "images/289.thumb.JPG", "images/291.thumb.JPG", "images/292.thumb.JPG", "images/293.thumb.JPG", "images/294.thumb.jpg", "images/295.thumb.JPG", "images/298.thumb.JPG")
+var cImage = 185
+var controlsDisplay = "yes"
+var useTransitions = "yes"
+
+var imagePath = ""+"images"
+var prevPath = imagePath + "/prev.gif" 
+var nextPath = imagePath + "/next.gif" 
+var playPath = imagePath + "/play.gif" 
+var pausePath = imagePath + "/pause.gif" 
+var stopPath = imagePath + "/stop.gif" 
+var blankPath = imagePath + "/blank.gif" 
+var brandingPath = imagePath + "/branding.gif" 
+
+var runSlidesFlag = 0
+var iImage = 0
+var Mode = "Welcome"
+var controlsEnabled = 1
+var buttonsEnabled = 1
+var fullscreen = (window.parent != window)
+var timeoutid
+
+function loadedDoc()
+{
+    if (!(navigator.appName == "Netscape" || navigator.appName.indexOf("Microsoft") == -1))
+    {
+       var preload = new Image
+       preload.src = vImage[0]
+
+       if (controlsDisplay)
+       {
+           var contactText = "<center><table style=\"overflow-y: auto\">"
+           for (i = 0 ; i < cImage / 5; i++)
+           {
+              contactText = contactText + "<tr>"
+              for (j = 0; j < 5 ; j++)
+              {
+                 var x = (i * 5 + j)
+                 if (x < cImage)
+                 {
+                    contactText = contactText + "<td height=120 width=120><img onclick=filmJump(" + x + ") style=\"cursor:hand; padding: 20px\" src=\"" + vThumb[x] + "\"></td>"
+                 }
+              }
+              contactText = contactText + "</tr>"
+           }
+           contactText = contactText + "</table></center>"
+           contact.innerHTML = contactText
+
+           var filmThumbsText = "<table style=\"width: 22200; overflow-x: scroll\"><tr height=120>"
+           for (i = 0 ; i < vThumb.length ; i++)
+           {
+              filmThumbsText = filmThumbsText + "<td align=center width=120 id=filmThumb" + i + "><div id=filmThumbCell" + i + " style = \"padding: 5px; border: solid 0 #00b; border-width:2px\"><img onclick=filmSelect(" + i + ") class=THUMB style=\"cursor:hand; padding: 20px\" src=\"" + vThumb[i] + "\"></div></td>"
+           }
+           filmThumbsText = filmThumbsText + "</tr></table>"
+           filmthumbs.innerHTML = filmThumbsText
+       }
+
+       filmmain.style.cursor = "hand"
+       slidemain.style.cursor = "hand"
+
+       welcome.style.display = "none"
+       forwButton.src=nextPath
+       runButton.src=playPath
+       prevButton.src=prevPath
+       stopButton.src=stopPath
+
+       if (fullscreen)
+       {
+           Slideshow('launch')
+       }
+       else
+       {
+           welcome2.style.display = ""
+       }
+    }
+}
+
+function Ticker()
+{
+    if (runSlidesFlag == 1 && Mode == "Slideshow") 
+    {
+        nextImage()
+        timeoutid = setTimeout("Ticker()", 5000)
+    }
+}
+
+function ShowControls(x)
+{
+    if (controlsDisplay)
+    {
+        if (x=="Slideshow")
+        {
+           advcontrols1.style.color = "#ffffff"
+           advcontrols2.style.color = "#03a0fc"
+           advcontrols3.style.color = "#03a0fc"
+        }
+        else if (x=="Film")
+        {
+           advcontrols1.style.color = "#03a0fc"
+           advcontrols2.style.color = "#ffffff"
+           advcontrols3.style.color = "#03a0fc"
+        }
+        else if (x=="Contact")
+        {
+           advcontrols1.style.color = "#03a0fc"
+           advcontrols2.style.color = "#03a0fc"
+           advcontrols3.style.color = "#ffffff"
+        }
+    }
+    else
+    {
+        advcontrols.style.visibility = "hidden"
+    }
+}
+
+function ShowStopButton()
+{
+    if (fullscreen)
+    {
+       stopButton.width = 32;
+       stopButton.style.cursor = "hand"
+       stopButton.style.visibility = ""
+    }
+    else
+    {
+       stopButton.width = 0;
+       stopButton.style.cursor = ""
+       stopButton.style.visibility = "hidden"
+    }
+
+}
+
+function ShowButtons(f)
+{
+    ShowStopButton();
+    forwButton.filters[0].Apply();
+    runButton.filters[0].Apply();
+    prevButton.filters[0].Apply();
+    stopButton.filters[0].Apply();
+    if (f)
+    {
+        buttonsEnabled = 1
+        forwButton.filters[0].transition = 3;
+        runButton.filters[0].transition = 3;
+        prevButton.filters[0].transition = 3;
+        forwButton.src=nextPath
+        runButton.src=playPath
+        prevButton.src=prevPath
+        forwButton.style.cursor="hand"
+        runButton.style.cursor="hand"
+        prevButton.style.cursor="hand"
+    }
+    else
+    {
+        buttonsEnabled = 0
+        forwButton.filters[0].transition = 2;
+        runButton.filters[0].transition = 2;
+        prevButton.filters[0].transition = 2;
+        prevButton.src=blankPath
+        forwButton.src=blankPath
+        runButton.src=blankPath
+        forwButton.style.cursor=""
+        runButton.style.cursor=""
+        prevButton.style.cursor=""
+    }
+    forwButton.filters[0].Play();
+    runButton.filters[0].Play();
+    prevButton.filters[0].Play();
+    stopButton.filters[0].Play();
+}
+
+function Film()
+{
+    if (controlsEnabled)
+    {
+        ShowControls('Film')
+        Mode = "Film"
+        runSlidesFlag = 0
+        welcome.style.display = "none"
+        welcome2.style.display = "none"
+        controls.style.display = ""
+	if ((document.body.clientHeight - 220) > 0)
+        {
+            film.height = document.body.clientHeight - 220
+        }
+        film.style.display = ""
+        filmthumbs.style.display = ""
+        contact.style.display = "none"
+        slideshow.style.display = "none"
+        ShowButtons(0)
+        filmSelect(iImage)
+        doResize()
+    }
+}
+
+function Slideshow(x)
+{
+    if (controlsEnabled)
+    {
+        ShowControls('Slideshow')
+        Mode = "Slideshow"
+        welcome.style.display = "none"
+        welcome2.style.display = "none"
+        controls.style.display = ""
+        slideshow.style.display = ""
+        if (x == "launch")
+        {
+            ShowStopButton()
+        }
+        else
+        {
+            ShowButtons(1)
+        }
+        contact.style.display = "none"
+        film.style.display = "none"
+        filmthumbs.style.display = "none"
+        slidemain.src = vImage[iImage]
+        doResize()
+    }
+}
+
+function Contact()
+{
+    if (controlsEnabled)
+    {
+        ShowControls('Contact')
+        Mode = "Contact"
+        runSlidesFlag = 0
+        welcome.style.display = "none"
+        welcome2.style.display = "none"
+        controls.style.display = ""
+        contact.style.display = ""
+        slideshow.style.display = "none"
+        ShowButtons(0)
+        film.style.display = "none"
+        filmthumbs.style.display = "none"
+    }
+}
+
+function changeImage(x,y)
+{
+    iImage = (iImage + vImage.length + x) % vImage.length
+    if (y == "notrans" || useTransitions != "yes")
+    {
+        slidemain.src = vImage[iImage]
+    }
+    else
+    {
+        slidemain.filters[0].Apply();
+        slidemain.filters[0].transition = 17
+        slidemain.src = vImage[iImage]
+        slidemain.filters[0].Play();
+    }
+    doResize()
+}
+
+function prevImage(x)
+{
+    changeImage(-1,x)
+}
+function nextImage(x)
+{
+    changeImage(+1,x)
+}
+
+function slideClick()
+{
+   if (runSlidesFlag == 1)
+   {
+      runSlides()
+   }
+   nextImage("notrans")
+}
+
+function nextImageButton()
+{
+    if (buttonsEnabled)
+    {
+        if (runSlidesFlag == 1)
+        {
+           runSlides()
+        }
+        nextImage("notrans")
+    }
+}
+
+function runSlidesButton()
+{
+    if (buttonsEnabled)
+    {
+        if (runSlidesFlag == 0)
+        {
+	   nextImage()
+        }
+        runSlides()
+    }
+}
+
+function prevImageButton()
+{
+    if (buttonsEnabled)
+    {
+        if (runSlidesFlag == 1)
+        {
+           runSlides()
+        }
+        prevImage("notrans")
+    }
+}
+
+function exitButton()
+{
+    window.parent.close()
+}
+
+function runSlides()
+{
+    runSlidesFlag = (runSlidesFlag + 1) % 2
+    if (runSlidesFlag == 1)
+    {
+        runButton.src = pausePath
+        timeoutid = setTimeout("Ticker()", 5000)
+    }
+    else
+    {
+        clearTimeout(timeoutid)
+        runButton.src = playPath
+    }
+}
+
+function filmSelect(i)
+{
+    iImage = i;
+    filmmain.src = vImage[i];
+    for (var j = 0 ; j < cImage ; j++)
+    {
+        document.all["filmThumbCell"+j].style.border=""
+    }
+    document.all["filmThumbCell"+i].style.border="#00b 2px solid"
+    doResize()
+}
+
+function filmJump(i)
+{
+    iImage = i;
+    Film();
+}
+
+function changeFilmImage(x)
+{
+    filmSelect((iImage + vImage.length + x) % vImage.length)
+}
+
+function prevFilmImage()
+{
+    changeFilmImage(-1)
+}
+
+function nextFilmImage()
+{
+    changeFilmImage(+1)
+}
+
+function contactSelect(i)
+{
+    iImage = i
+    Film()
+    filmmain.src = vImage[i]
+    doResize()
+}
+
+document.onkeydown = keyDown
+
+function keyDown()	
+{
+   if (27 == event.keyCode)
+   {         
+     if (fullscreen == 1)
+     {
+	exiteButton()
+     }
+   }
+   else if (Mode != "Welcome")
+   {
+      if (37 == event.keyCode)
+      {
+         if (Mode == "Slideshow")
+         {
+            prevImageButton()
+         }
+         else if (Mode == "Film")
+         {
+             prevFilmImage()
+         }
+      }
+      else if (39 == event.keyCode)
+      {
+         if (Mode == "Slideshow")
+         {
+             nextImageButton()
+         }
+         else if (Mode == "Film")
+         {
+             nextFilmImage()
+         }
+      }
+      else if (32 == event.keyCode)
+      {
+         if (Mode == "Slideshow")
+         {
+            runSlidesButton()
+         }
+         else
+         {
+            Slideshow()
+         }
+      }
+   }
+}
+
+function doResize()
+{
+    var clientWidth = (document.body.clientWidth - 40)
+    var clientHeight = (document.body.clientHeight - document.all.controls.offsetHeight - 40)
+
+    if (Mode == "Film")
+    {
+        clientHeight -= document.all.filmthumbs.offsetHeight
+    }
+
+    var cx = cxImage[iImage]
+    var cy = cyImage[iImage]
+
+    if (clientWidth < cx)
+    {
+        cy = cy * clientWidth / cx;
+        cx = clientWidth
+    }
+    if (clientHeight < cy)
+    {
+        cx = cx * clientHeight / cy;
+        cy = clientHeight
+    }
+
+    if (Mode == "Film")
+    {
+        filmmain.width = cx;
+        filmmain.height = cy;
+    }
+    else
+    {
+        slidemain.width = cx;
+        slidemain.height = cy;
+    }
+}
+
+</script>
+<body onLoad="loadedDoc()" onResize="doResize()" text="#ffffff" bgcolor="#000000" link="#03a0fc" vlink="#03a0fc">
+
+<div id=welcome>
+<table style="height: 85%; width: 100%">
+<tr valign=center>
+<td align=center>
+<div style="font-family: Trebuchet MS, Arial, sans-serif">
+<h1>Brazil</h1>
+	
+<h2>Click <a href="html/0.htm">here</a> to watch the slideshow.</h2>
+</div>
+<td/>
+</tr>
+</table>
+<table style="height: 50; width: 100%">
+<tr valign=top>
+      <td align=right>&nbsp; </td>
+</tr>
+</table>
+</div>
+
+<div id=welcome2 style="display:none">
+<table style="height: 85%; width: 100%">
+<tr valign=center>
+<td align=center>
+<div style="font-family: Trebuchet MS, Arial, sans-serif">
+<h1>Brazil</h1>
+	
+<h2><div style="font-family: Trebuchet MS, Arial, sans-serif; cursor: hand; color:#03a0fc"; onclick="Slideshow('launch')">Click here</div> to watch the slideshow.</h2>
+</div>
+</td>
+</tr>
+</table>
+<table style="height: 50; width: 100%">
+<tr valign=top>
+      <td align=right>&nbsp; </td>
+</tr>
+</table>
+</div>
+
+<table id=controls style="height: 50; width: 100%; display:none" cellspacing=0 cellpadding=0>
+<tr>
+<td width="20">&nbsp;</td>
+<td>
+<table id=advcontrols style="cursor: hand; font-size: 12pt; color:#03a0fc; font-family: Trebuchet MS, Arial, sans-serif">
+<td width=100 id=advcontrols1 style='color:#03a0fc' onclick='Slideshow()'>Slide Show</td>
+<td width=100 id=advcontrols2 style='color:#03a0fc' onclick='Film()'>Filmstrip</td>
+<td width=100 id=advcontrols3 style='color:#03a0fc' onclick='Contact()'>Previews</td>
+<td><input type=BUTTON value="Close Window" onClick="top.window.close();" name="Close"></td>
+</table>
+</td>
+
+<td width="32%" id=slideshowbuttons>
+<p align="center">
+<img id=stopButton type=button style="visibility:hidden; Filter:revealTrans(duration=1)" onclick="exitButton()" width="0" height="32" align="right">
+<img id=forwButton type=button style="cursor: hand; Filter:revealTrans(duration=1)" value="Forward" onclick="nextImageButton()" width="32" height="32" align="right">
+<img id=runButton type=button style="cursor: hand; Filter:revealTrans(duration=1)" value="Play" onclick="runSlidesButton()" width="32" height="32" align="right">
+<img id=prevButton type=button style="cursor: hand; Filter:revealTrans(duration=1)" value = "Back" onclick="prevImageButton()" width="32" height="32" align="right">
+</td>
+</table>
+
+<div id=contact style="width: 100%; display: none"></div>
+
+<table id=slideshow style="height:85%; width: 100%; display: none">
+<tr align=center>
+<td valign=center><img id=slidemain style="Filter:revealTrans(duration=1)" onclick=slideClick() src="">
+</table>
+
+<table id=film style="width: 100%; display: none">
+<tr align=center><td valign=center><img alt="" onclick=nextFilmImage() id=filmmain src="">
+</table>
+
+<div id=filmthumbs style="width: 100%; height: 150; display:none; overflow-y: none; overflow-x:scroll"></div>
+
+</body>
+</html>

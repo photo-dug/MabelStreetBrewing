@@ -1,0 +1,541 @@
+<html>
+<head>
+<title>christmas '04</title>
+<script>
+
+var vImage = new Array("images/100_0789.JPG", "images/100_0793.JPG", "images/100_0795.JPG", "images/100_0797.JPG", "images/100_0798.JPG", "images/100_0800.JPG", "images/100_0801.JPG", "images/100_0802.JPG", "images/100_0804.JPG", "images/100_0805.JPG", "images/100_0806.JPG", "images/100_0807.JPG", "images/100_0812.JPG", "images/100_0814.JPG", "images/100_0815.JPG", "images/100_0816.JPG", "images/100_0818.JPG", "images/100_0819.JPG", "images/100_0820.JPG", "images/100_0821.JPG", "images/100_0822.JPG", "images/100_0823.JPG", "images/100_0824.JPG", "images/100_0825.JPG", "images/100_0826.JPG", "images/100_0827.JPG", "images/100_0828.JPG", "images/100_0829.JPG", "images/100_0830.JPG", "images/100_0831.JPG", "images/100_0832.JPG", "images/100_0833.JPG", "images/100_0835.JPG", "images/100_0836.JPG", "images/100_0837.JPG", "images/100_0838.JPG", "images/100_0839.JPG", "images/100_0840.JPG", "images/100_0841.JPG", "images/100_0842.JPG", "images/100_0844.JPG", "images/100_0845.JPG", "images/100_0847.JPG", "images/100_0848.JPG", "images/100_0849.JPG", "images/100_0850.JPG", "images/100_0851.JPG", "images/100_0852.JPG", "images/100_0853.JPG", "images/100_0854.JPG", "images/100_0855.JPG", "images/100_0856.JPG", "images/100_0857.JPG", "images/100_0859.JPG", "images/100_0860.JPG", "images/100_0861.JPG", "images/100_0862.JPG", "images/100_0863.JPG", "images/100_0864.JPG", "images/100_0866.JPG", "images/100_0867.JPG", "images/100_0868.JPG", "images/100_0869.JPG", "images/100_0870.JPG", "images/100_0871.JPG", "images/100_0872.JPG", "images/100_0873.JPG", "images/100_0874.JPG", "images/100_0875.JPG", "images/100_0876.JPG", "images/100_0879.JPG", "images/100_0880.JPG", "images/100_0881.JPG", "images/100_0882.JPG", "images/100_0883.JPG", "images/100_0884.JPG", "images/100_0885.JPG", "images/100_0886.JPG", "images/100_0887.JPG", "images/100_0888.JPG", "images/100_0891.JPG", "images/100_0892.JPG", "images/100_0894.JPG", "images/100_0895.JPG", "images/100_0896.JPG", "images/100_0897.JPG", "images/100_0898.JPG", "images/100_0900.JPG", "images/100_0901.JPG", "images/100_0902.JPG", "images/100_0903.JPG", "images/100_0906.JPG", "images/100_0908.JPG", "images/100_0909.JPG", "images/100_0910.JPG", "images/100_0912.JPG", "images/100_0913.JPG", "images/100_0914.JPG", "images/100_0915.JPG", "images/100_0916.JPG", "images/100_0917.JPG", "images/100_0918.JPG", "images/100_0919.JPG", "images/100_0922.JPG", "images/100_0924.JPG", "images/100_0925.JPG", "images/100_0926.JPG", "images/100_0927.JPG", "images/100_0928.JPG", "images/100_0929.JPG", "images/P1010001.JPG", "images/PC250002.JPG", "images/PC250003.JPG", "images/PC250004.JPG", "images/PC250005.JPG", "images/PC250006.JPG", "images/PC250007.JPG", "images/PC250008.JPG", "images/PC250009.JPG", "images/PC250010.JPG", "images/PC250012.JPG", "images/PC250013.JPG", "images/PC250014.JPG", "images/PC250015.JPG", "images/PC250016.JPG")
+var cxImage = new Array("640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","360","640","360","640","360","640","640","640","640","640","640","640","640","640","640","640","640","640","640","360","640","360","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","360","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","320","640","320","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640","640")
+var cyImage = new Array("480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480","427","480","427","480","427","427","480","480","480","480","480","480","480","480","480","480","480","480","480","480","480")
+var vThumb = new Array("images/100_0789.thumb.JPG", "images/100_0793.thumb.JPG", "images/100_0795.thumb.JPG", "images/100_0797.thumb.JPG", "images/100_0798.thumb.JPG", "images/100_0800.thumb.JPG", "images/100_0801.thumb.JPG", "images/100_0802.thumb.JPG", "images/100_0804.thumb.JPG", "images/100_0805.thumb.JPG", "images/100_0806.thumb.JPG", "images/100_0807.thumb.JPG", "images/100_0812.thumb.JPG", "images/100_0814.thumb.JPG", "images/100_0815.thumb.JPG", "images/100_0816.thumb.JPG", "images/100_0818.thumb.JPG", "images/100_0819.thumb.JPG", "images/100_0820.thumb.JPG", "images/100_0821.thumb.JPG", "images/100_0822.thumb.JPG", "images/100_0823.thumb.JPG", "images/100_0824.thumb.JPG", "images/100_0825.thumb.JPG", "images/100_0826.thumb.JPG", "images/100_0827.thumb.JPG", "images/100_0828.thumb.JPG", "images/100_0829.thumb.JPG", "images/100_0830.thumb.JPG", "images/100_0831.thumb.JPG", "images/100_0832.thumb.JPG", "images/100_0833.thumb.JPG", "images/100_0835.thumb.JPG", "images/100_0836.thumb.JPG", "images/100_0837.thumb.JPG", "images/100_0838.thumb.JPG", "images/100_0839.thumb.JPG", "images/100_0840.thumb.JPG", "images/100_0841.thumb.JPG", "images/100_0842.thumb.JPG", "images/100_0844.thumb.JPG", "images/100_0845.thumb.JPG", "images/100_0847.thumb.JPG", "images/100_0848.thumb.JPG", "images/100_0849.thumb.JPG", "images/100_0850.thumb.JPG", "images/100_0851.thumb.JPG", "images/100_0852.thumb.JPG", "images/100_0853.thumb.JPG", "images/100_0854.thumb.JPG", "images/100_0855.thumb.JPG", "images/100_0856.thumb.JPG", "images/100_0857.thumb.JPG", "images/100_0859.thumb.JPG", "images/100_0860.thumb.JPG", "images/100_0861.thumb.JPG", "images/100_0862.thumb.JPG", "images/100_0863.thumb.JPG", "images/100_0864.thumb.JPG", "images/100_0866.thumb.JPG", "images/100_0867.thumb.JPG", "images/100_0868.thumb.JPG", "images/100_0869.thumb.JPG", "images/100_0870.thumb.JPG", "images/100_0871.thumb.JPG", "images/100_0872.thumb.JPG", "images/100_0873.thumb.JPG", "images/100_0874.thumb.JPG", "images/100_0875.thumb.JPG", "images/100_0876.thumb.JPG", "images/100_0879.thumb.JPG", "images/100_0880.thumb.JPG", "images/100_0881.thumb.JPG", "images/100_0882.thumb.JPG", "images/100_0883.thumb.JPG", "images/100_0884.thumb.JPG", "images/100_0885.thumb.JPG", "images/100_0886.thumb.JPG", "images/100_0887.thumb.JPG", "images/100_0888.thumb.JPG", "images/100_0891.thumb.JPG", "images/100_0892.thumb.JPG", "images/100_0894.thumb.JPG", "images/100_0895.thumb.JPG", "images/100_0896.thumb.JPG", "images/100_0897.thumb.JPG", "images/100_0898.thumb.JPG", "images/100_0900.thumb.JPG", "images/100_0901.thumb.JPG", "images/100_0902.thumb.JPG", "images/100_0903.thumb.JPG", "images/100_0906.thumb.JPG", "images/100_0908.thumb.JPG", "images/100_0909.thumb.JPG", "images/100_0910.thumb.JPG", "images/100_0912.thumb.JPG", "images/100_0913.thumb.JPG", "images/100_0914.thumb.JPG", "images/100_0915.thumb.JPG", "images/100_0916.thumb.JPG", "images/100_0917.thumb.JPG", "images/100_0918.thumb.JPG", "images/100_0919.thumb.JPG", "images/100_0922.thumb.JPG", "images/100_0924.thumb.JPG", "images/100_0925.thumb.JPG", "images/100_0926.thumb.JPG", "images/100_0927.thumb.JPG", "images/100_0928.thumb.JPG", "images/100_0929.thumb.JPG", "images/P1010001.thumb.JPG", "images/PC250002.thumb.JPG", "images/PC250003.thumb.JPG", "images/PC250004.thumb.JPG", "images/PC250005.thumb.JPG", "images/PC250006.thumb.JPG", "images/PC250007.thumb.JPG", "images/PC250008.thumb.JPG", "images/PC250009.thumb.JPG", "images/PC250010.thumb.JPG", "images/PC250012.thumb.JPG", "images/PC250013.thumb.JPG", "images/PC250014.thumb.JPG", "images/PC250015.thumb.JPG", "images/PC250016.thumb.JPG")
+var cImage = 125
+var controlsDisplay = "yes"
+var useTransitions = "yes"
+
+var imagePath = ""+"images"
+var prevPath = imagePath + "/prev.gif" 
+var nextPath = imagePath + "/next.gif" 
+var playPath = imagePath + "/play.gif" 
+var pausePath = imagePath + "/pause.gif" 
+var stopPath = imagePath + "/stop.gif" 
+var blankPath = imagePath + "/blank.gif" 
+var brandingPath = imagePath + "/branding.gif" 
+
+var runSlidesFlag = 0
+var iImage = 0
+var Mode = "Welcome"
+var controlsEnabled = 1
+var buttonsEnabled = 1
+var fullscreen = (window.parent != window)
+var timeoutid
+
+function loadedDoc()
+{
+    if (!(navigator.appName == "Netscape" || navigator.appName.indexOf("Microsoft") == -1))
+    {
+       var preload = new Image
+       preload.src = vImage[0]
+
+       if (controlsDisplay)
+       {
+           var contactText = "<center><table style=\"overflow-y: auto\">"
+           for (i = 0 ; i < cImage / 5; i++)
+           {
+              contactText = contactText + "<tr>"
+              for (j = 0; j < 5 ; j++)
+              {
+                 var x = (i * 5 + j)
+                 if (x < cImage)
+                 {
+                    contactText = contactText + "<td height=120 width=120><img onclick=filmJump(" + x + ") style=\"cursor:hand; padding: 20px\" src=\"" + vThumb[x] + "\"></td>"
+                 }
+              }
+              contactText = contactText + "</tr>"
+           }
+           contactText = contactText + "</table></center>"
+           contact.innerHTML = contactText
+
+           var filmThumbsText = "<table style=\"width: 15000; overflow-x: scroll\"><tr height=120>"
+           for (i = 0 ; i < vThumb.length ; i++)
+           {
+              filmThumbsText = filmThumbsText + "<td align=center width=120 id=filmThumb" + i + "><div id=filmThumbCell" + i + " style = \"padding: 5px; border: solid 0 #00b; border-width:2px\"><img onclick=filmSelect(" + i + ") class=THUMB style=\"cursor:hand; padding: 20px\" src=\"" + vThumb[i] + "\"></div></td>"
+           }
+           filmThumbsText = filmThumbsText + "</tr></table>"
+           filmthumbs.innerHTML = filmThumbsText
+       }
+
+       filmmain.style.cursor = "hand"
+       slidemain.style.cursor = "hand"
+
+       welcome.style.display = "none"
+       forwButton.src=nextPath
+       runButton.src=playPath
+       prevButton.src=prevPath
+       stopButton.src=stopPath
+
+       if (fullscreen)
+       {
+           Slideshow('launch')
+       }
+       else
+       {
+           welcome2.style.display = ""
+       }
+    }
+}
+
+function Ticker()
+{
+    if (runSlidesFlag == 1 && Mode == "Slideshow") 
+    {
+        nextImage()
+        timeoutid = setTimeout("Ticker()", 5000)
+    }
+}
+
+function ShowControls(x)
+{
+    if (controlsDisplay)
+    {
+        if (x=="Slideshow")
+        {
+           advcontrols1.style.color = "#ffffff"
+           advcontrols2.style.color = "#03a0fc"
+           advcontrols3.style.color = "#03a0fc"
+        }
+        else if (x=="Film")
+        {
+           advcontrols1.style.color = "#03a0fc"
+           advcontrols2.style.color = "#ffffff"
+           advcontrols3.style.color = "#03a0fc"
+        }
+        else if (x=="Contact")
+        {
+           advcontrols1.style.color = "#03a0fc"
+           advcontrols2.style.color = "#03a0fc"
+           advcontrols3.style.color = "#ffffff"
+        }
+    }
+    else
+    {
+        advcontrols.style.visibility = "hidden"
+    }
+}
+
+function ShowStopButton()
+{
+    if (fullscreen)
+    {
+       stopButton.width = 32;
+       stopButton.style.cursor = "hand"
+       stopButton.style.visibility = ""
+    }
+    else
+    {
+       stopButton.width = 0;
+       stopButton.style.cursor = ""
+       stopButton.style.visibility = "hidden"
+    }
+
+}
+
+function ShowButtons(f)
+{
+    ShowStopButton();
+    forwButton.filters[0].Apply();
+    runButton.filters[0].Apply();
+    prevButton.filters[0].Apply();
+    stopButton.filters[0].Apply();
+    if (f)
+    {
+        buttonsEnabled = 1
+        forwButton.filters[0].transition = 3;
+        runButton.filters[0].transition = 3;
+        prevButton.filters[0].transition = 3;
+        forwButton.src=nextPath
+        runButton.src=playPath
+        prevButton.src=prevPath
+        forwButton.style.cursor="hand"
+        runButton.style.cursor="hand"
+        prevButton.style.cursor="hand"
+    }
+    else
+    {
+        buttonsEnabled = 0
+        forwButton.filters[0].transition = 2;
+        runButton.filters[0].transition = 2;
+        prevButton.filters[0].transition = 2;
+        prevButton.src=blankPath
+        forwButton.src=blankPath
+        runButton.src=blankPath
+        forwButton.style.cursor=""
+        runButton.style.cursor=""
+        prevButton.style.cursor=""
+    }
+    forwButton.filters[0].Play();
+    runButton.filters[0].Play();
+    prevButton.filters[0].Play();
+    stopButton.filters[0].Play();
+}
+
+function Film()
+{
+    if (controlsEnabled)
+    {
+        ShowControls('Film')
+        Mode = "Film"
+        runSlidesFlag = 0
+        welcome.style.display = "none"
+        welcome2.style.display = "none"
+        controls.style.display = ""
+	if ((document.body.clientHeight - 220) > 0)
+        {
+            film.height = document.body.clientHeight - 220
+        }
+        film.style.display = ""
+        filmthumbs.style.display = ""
+        contact.style.display = "none"
+        slideshow.style.display = "none"
+        ShowButtons(0)
+        filmSelect(iImage)
+        doResize()
+    }
+}
+
+function Slideshow(x)
+{
+    if (controlsEnabled)
+    {
+        ShowControls('Slideshow')
+        Mode = "Slideshow"
+        welcome.style.display = "none"
+        welcome2.style.display = "none"
+        controls.style.display = ""
+        slideshow.style.display = ""
+        if (x == "launch")
+        {
+            ShowStopButton()
+        }
+        else
+        {
+            ShowButtons(1)
+        }
+        contact.style.display = "none"
+        film.style.display = "none"
+        filmthumbs.style.display = "none"
+        slidemain.src = vImage[iImage]
+        doResize()
+    }
+}
+
+function Contact()
+{
+    if (controlsEnabled)
+    {
+        ShowControls('Contact')
+        Mode = "Contact"
+        runSlidesFlag = 0
+        welcome.style.display = "none"
+        welcome2.style.display = "none"
+        controls.style.display = ""
+        contact.style.display = ""
+        slideshow.style.display = "none"
+        ShowButtons(0)
+        film.style.display = "none"
+        filmthumbs.style.display = "none"
+    }
+}
+
+function changeImage(x,y)
+{
+    iImage = (iImage + vImage.length + x) % vImage.length
+    if (y == "notrans" || useTransitions != "yes")
+    {
+        slidemain.src = vImage[iImage]
+    }
+    else
+    {
+        slidemain.filters[0].Apply();
+        slidemain.filters[0].transition = 17
+        slidemain.src = vImage[iImage]
+        slidemain.filters[0].Play();
+    }
+    doResize()
+}
+
+function prevImage(x)
+{
+    changeImage(-1,x)
+}
+function nextImage(x)
+{
+    changeImage(+1,x)
+}
+
+function slideClick()
+{
+   if (runSlidesFlag == 1)
+   {
+      runSlides()
+   }
+   nextImage("notrans")
+}
+
+function nextImageButton()
+{
+    if (buttonsEnabled)
+    {
+        if (runSlidesFlag == 1)
+        {
+           runSlides()
+        }
+        nextImage("notrans")
+    }
+}
+
+function runSlidesButton()
+{
+    if (buttonsEnabled)
+    {
+        if (runSlidesFlag == 0)
+        {
+	   nextImage()
+        }
+        runSlides()
+    }
+}
+
+function prevImageButton()
+{
+    if (buttonsEnabled)
+    {
+        if (runSlidesFlag == 1)
+        {
+           runSlides()
+        }
+        prevImage("notrans")
+    }
+}
+
+function exitButton()
+{
+    window.parent.close()
+}
+
+function runSlides()
+{
+    runSlidesFlag = (runSlidesFlag + 1) % 2
+    if (runSlidesFlag == 1)
+    {
+        runButton.src = pausePath
+        timeoutid = setTimeout("Ticker()", 5000)
+    }
+    else
+    {
+        clearTimeout(timeoutid)
+        runButton.src = playPath
+    }
+}
+
+function filmSelect(i)
+{
+    iImage = i;
+    filmmain.src = vImage[i];
+    for (var j = 0 ; j < cImage ; j++)
+    {
+        document.all["filmThumbCell"+j].style.border=""
+    }
+    document.all["filmThumbCell"+i].style.border="#00b 2px solid"
+    doResize()
+}
+
+function filmJump(i)
+{
+    iImage = i;
+    Film();
+}
+
+function changeFilmImage(x)
+{
+    filmSelect((iImage + vImage.length + x) % vImage.length)
+}
+
+function prevFilmImage()
+{
+    changeFilmImage(-1)
+}
+
+function nextFilmImage()
+{
+    changeFilmImage(+1)
+}
+
+function contactSelect(i)
+{
+    iImage = i
+    Film()
+    filmmain.src = vImage[i]
+    doResize()
+}
+
+document.onkeydown = keyDown
+
+function keyDown()	
+{
+   if (27 == event.keyCode)
+   {         
+     if (fullscreen == 1)
+     {
+	exiteButton()
+     }
+   }
+   else if (Mode != "Welcome")
+   {
+      if (37 == event.keyCode)
+      {
+         if (Mode == "Slideshow")
+         {
+            prevImageButton()
+         }
+         else if (Mode == "Film")
+         {
+             prevFilmImage()
+         }
+      }
+      else if (39 == event.keyCode)
+      {
+         if (Mode == "Slideshow")
+         {
+             nextImageButton()
+         }
+         else if (Mode == "Film")
+         {
+             nextFilmImage()
+         }
+      }
+      else if (32 == event.keyCode)
+      {
+         if (Mode == "Slideshow")
+         {
+            runSlidesButton()
+         }
+         else
+         {
+            Slideshow()
+         }
+      }
+   }
+}
+
+function doResize()
+{
+    var clientWidth = (document.body.clientWidth - 40)
+    var clientHeight = (document.body.clientHeight - document.all.controls.offsetHeight - 40)
+
+    if (Mode == "Film")
+    {
+        clientHeight -= document.all.filmthumbs.offsetHeight
+    }
+
+    var cx = cxImage[iImage]
+    var cy = cyImage[iImage]
+
+    if (clientWidth < cx)
+    {
+        cy = cy * clientWidth / cx;
+        cx = clientWidth
+    }
+    if (clientHeight < cy)
+    {
+        cx = cx * clientHeight / cy;
+        cy = clientHeight
+    }
+
+    if (Mode == "Film")
+    {
+        filmmain.width = cx;
+        filmmain.height = cy;
+    }
+    else
+    {
+        slidemain.width = cx;
+        slidemain.height = cy;
+    }
+}
+
+</script>
+<body onLoad="loadedDoc()" onResize="doResize()" text="#ffffff" bgcolor="#000000" link="#03a0fc" vlink="#03a0fc">
+
+<div id=welcome>
+<table style="height: 85%; width: 100%">
+<tr valign=center>
+<td align=center>
+<div style="font-family: Trebuchet MS, Arial, sans-serif">
+<h1>christmas '04</h1>
+	
+<h2>Click <a href="html/0.htm">here</a> to watch the slideshow.</h2>
+</div>
+<td/>
+</tr>
+</table>
+<table style="height: 50; width: 100%">
+<tr valign=top>
+      <td align=right>&nbsp; </td>
+</tr>
+</table>
+</div>
+
+<div id=welcome2 style="display:none">
+<table style="height: 85%; width: 100%">
+<tr valign=center>
+<td align=center>
+<div style="font-family: Trebuchet MS, Arial, sans-serif">
+<h1>christmas '04</h1>
+	
+<h2><div style="font-family: Trebuchet MS, Arial, sans-serif; cursor: hand; color:#03a0fc"; onclick="Slideshow('launch')">Click here</div> to watch the slideshow.</h2>
+</div>
+</td>
+</tr>
+</table>
+<table style="height: 50; width: 100%">
+<tr valign=top>
+      <td align=right>&nbsp; </td>
+</tr>
+</table>
+</div>
+
+<table id=controls style="height: 50; width: 100%; display:none" cellspacing=0 cellpadding=0>
+<tr>
+<td width="20">&nbsp;</td>
+<td>
+<table id=advcontrols style="cursor: hand; font-size: 12pt; color:#03a0fc; font-family: Trebuchet MS, Arial, sans-serif">
+<td width=100 id=advcontrols1 style='color:#03a0fc' onclick='Slideshow()'>Slide Show</td>
+<td width=100 id=advcontrols2 style='color:#03a0fc' onclick='Film()'>Filmstrip</td>
+<td width=100 id=advcontrols3 style='color:#03a0fc' onclick='Contact()'>Previews</td>
+<td><input type=BUTTON value="Close Window" onClick="top.window.close();" name="Close"></td>
+</table>
+</td>
+
+<td width="32%" id=slideshowbuttons>
+<p align="center">
+<img id=stopButton type=button style="visibility:hidden; Filter:revealTrans(duration=1)" onclick="exitButton()" width="0" height="32" align="right">
+<img id=forwButton type=button style="cursor: hand; Filter:revealTrans(duration=1)" value="Forward" onclick="nextImageButton()" width="32" height="32" align="right">
+<img id=runButton type=button style="cursor: hand; Filter:revealTrans(duration=1)" value="Play" onclick="runSlidesButton()" width="32" height="32" align="right">
+<img id=prevButton type=button style="cursor: hand; Filter:revealTrans(duration=1)" value = "Back" onclick="prevImageButton()" width="32" height="32" align="right">
+</td>
+</table>
+
+<div id=contact style="width: 100%; display: none"></div>
+
+<table id=slideshow style="height:85%; width: 100%; display: none">
+<tr align=center>
+<td valign=center><img id=slidemain style="Filter:revealTrans(duration=1)" onclick=slideClick() src="">
+</table>
+
+<table id=film style="width: 100%; display: none">
+<tr align=center><td valign=center><img alt="" onclick=nextFilmImage() id=filmmain src="">
+</table>
+
+<div id=filmthumbs style="width: 100%; height: 150; display:none; overflow-y: none; overflow-x:scroll"></div>
+
+</body>
+</html>

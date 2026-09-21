@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>House</title>
+<script language="JavaScript">
+<!--
+// This script lets you have an art gallery of images of varying sizes.
+// It also allows you to put captions on your pictures.
+// Name your images "img1.gif","img2.gif",etc.
+// All of your images must be of the same suffix.
+
+total_images = 40; // enter the number of images you have
+suffix = "jpg"; // enter "gif", "jpeg", or "jpg", etc
+graphics_directory = "images/"; // enter path to graphics directory (or just leave blank)
+show_captions = true; // change to false to hide captions
+
+function initArray() {
+ this.length = initArray.arguments.length;
+ for (n=0; n<initArray.arguments.length; n++)
+  this[n] = initArray.arguments[n];
+ return this;
+}
+
+if (show_captions) {
+ // ****************************************
+ // enter the list of captions here in order
+captions = new initArray("Front view from street" , "Front door to sun porch" , "Front door close-up" , 
+"Roof and attic close-up" , "View of north side of house looking southwest" , "North side of house Breaker Box" , 
+"North side basement venting" ,"North side kitchen waste line", "North side back tool shed and house close-up" , "North side back shed wide angle", "North side back property line and gate to side 'yard'" , "Back door to porch, tool shed on the left" , "Backyard looking southwest towards what use to be the garage" , "What is left of the garage" , "Back yard looking west towards the house and shed" , "Back yard looking northeast towards the neighbors house." , "Back yard looking east, tool shed on the right" ,  
+"South side of the house looking west up our driveway towards the park" , "South side of the house from the front looking east towards the garage remnants" , "Front door to sun porch" , 
+"Original hallway light" , "Entry way columns" , "Column detail" , "Living room and fireplace from entryway" , "Living room floor detail (newly refinished)" , "Dining room window and window seat (looking north)" , "Dining room old floor heater (Needs to be replaced)" , "Dining room box beam ceiling (and ugly light fixture) view" , "Dining room built-ins with original leaded glass doors." , "Built-ins view from other side" , "Curtain rod in Dining room" , 
+"Wedgwood stove with top open" , "Stove close-up" , "Stove with top closed" , "Hallway built-ins" , "Bath room from hallway" , "Claw foot tub" , "Bath room sink" , "Bath room sink close-up" , "Bath room original toilet (still works)" );
+
+}
+
+x = 1;
+
+function slider(n) {
+ x += n;
+ if (x == total_images + 1)
+  x = 1;
+ else if (x == 0)
+  x = total_images;
+ self.show.location.href = "show.HTM";
+}
+
+// -->
+</script>
+<meta name="Microsoft Border" content="none, default">
+</head>
+<frameset rows="*,75" border=0 frameborder="0"> 
+  <frame src="X/show.HTM" name="show">
+  <frame src="X/control.HTM" scrolling=no>
+  <noframes> 
+  </noframes> </frameset>
+</html>
