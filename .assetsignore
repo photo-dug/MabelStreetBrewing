@@ -1,0 +1,10 @@
+.git/
+.wrangler/
+.vscode/
+.DS_Store
+**/.DS_Store
+.gitattributes
+wrangler.jsonc
+build-cloudflare.sh
+mabelstreetbrewingBackup/
+dougross/
